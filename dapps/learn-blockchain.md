@@ -1,38 +1,3 @@
-### General Overview
-- Blockchain basics.
-- Ethereum Virtual Machine
-- Solidty
-- Usage of Solidity IDE
-- Setting up your first private Ethereum Network
-- go‐ethereum
-- Genesis File
-- Solc Compiler
-- Remix IDE
-- Connecting Nodes to Network
-- Greeter
-- Web3 Framework
-- Getting Started with Hyperledger Fabric
-- Brief Background and Introduction
-- Installations
-- Binary and Docker Images
-- Hyperledger Fabrics Samples
-- Setting up a Hyperledger Network
-- Installations
-- Network Artifacts
-- Bringing Network Up or Down
-- Crypto Generator and Configuration  Transaction
-- Starting the Network
-- Environment Variables
-- Channels and Chaincode
-- Query and Invokes
-- Docker Logs
-- Chaincode Logs
-- Setting up a Test Network
-- Network‐Application Interactions
-- Using Ledger
-- Quering Ledger
-- Updates and Modifications
-
 ## Curated list of blockchain and general cryptocurrency resources
 
 # Table of Contents
