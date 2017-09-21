@@ -128,7 +128,7 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Unsupervised Learning
 - Concepts, Inputs & Attributes
 - Training & Test Data
-- Classier
+- Classifier
 - Prediction
 - Lift
 - Overfitting
@@ -136,7 +136,7 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Trees & Classification
 - Classification
  - Classification Rate
- - Decission Trees
+ - Decision Trees
  - Boosting
  - Naive Bayes Classifiers
  - K-Nearest Neighbor
@@ -148,13 +148,15 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Clustering
  - Hierarchical Clustering
  - K-Means Clustering
-- Nureal Networks
+- Neural Networks
 - Sentiment Analysis
 - Collaborative Filtering
 - Tagging
+- Using Weka
 
 ## Text Mining / NLP
-- Corpus
+- Understanding Phonemes. 
+- Text Corpus
 - Names Entity Recognition
 - Text Analysis
 - UIMA
@@ -165,7 +167,6 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Market Based Analysis
 - Feature Extraction
 - Using Mahout
-- Using Weka
 - Using NLTK
 - Classify Text
 - Vocabulary Mapping
@@ -180,6 +181,7 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Line Charts (Bi)
 - Spatial Charts
 - Survey Plot
+- Data Visualization from Matplotlib.
 - Timeline
 - Decision Tree
 - D3.js
