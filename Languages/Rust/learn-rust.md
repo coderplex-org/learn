@@ -1,0 +1,180 @@
+# <p align="center">RoadMap for Rust</p>
+
+# <p align="center">Preface</p>
+Rust is a systems programming language sponsored by Mozilla Research. It is designed to be a "safe, concurrent, practical language", supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but is designed for better memory safety while maintaining performance.
+Rust is an open source programming language. The design of the language has been refined through the experiences of writing the Servo web browser layout engine and the Rust compiler. A large portion of current commits to the project are from community members.
+
+# <p align="center">Contents</p>
+- [Preface](#preface)
+- [Community](#community)
+  - [Team](#team)
+- [Curriculum](#curriculum)
+- [Additional Resources](#additional-resources)
+- [Open Source Projects](#open-source-projects)
+
+# <p align="center">Preface</p>
+
+# <p align="center">Community</p>
+
+# <p align="center">Curriculum</p>
+- Hello World
+    - Comments
+    - Formatted print
+      - Debug
+      - Display
+        - Testcase: List
+      - Formatting
+- Primitives
+  - Literals and operators
+  - Tuples
+  - Arrays and Slices
+- Custom Types
+  - Structures
+  - Enums
+    - use
+    - C-like
+      - Testcase: linked-list
+  - constants
+- Variable Bindings
+  - Mutability
+  - Scope and Shadowing
+  - Declare first
+- Casting
+  - Literals
+  - Inference
+  - Aliasing
+- Expressions
+- Flow Control
+  - if/else
+  - loop
+    - Nesting and labels
+    - Returning from loops
+  - while
+  - for and range
+  - match
+    - Destructuring
+      - tuples
+      - enums
+      - pointers/ref
+      - structs
+    - Guards
+    - Binding
+  - if let
+  - while let
+- Functions
+  - Methods
+  - Closures
+    - Capturing
+    - As input parameters
+    - Type anonymity
+    - Input functions
+    - As output parameters
+    - Examples in std
+      - Iterator::any
+      - Iterator::find
+  - Higher Order Functions
+- Modules
+  - Visibility
+  - Struct visibility
+  - The use declaration
+  - super and self
+  - File hierarchy
+- Crates
+  - Library
+  - extern crate
+- Attributes
+  - dead_code
+  - Crates
+  - cfg
+    - Custom
+- Generics
+  - Functions
+  - Implementation
+  - Traits
+  - Bounds
+    - Testcase: empty bounds
+  - Multiple bounds
+  - Where clauses
+  - Associated items
+    - The Problem
+    - Associated types
+  - Phantom type parameters
+    - Testcase: unit clarification
+- Scoping rules
+  - RAII
+  - Ownership and moves
+    - Mutability
+  - Borrowing
+    - Mutability
+    - Freezing
+    - Aliasing
+    - The ref pattern
+  - Lifetimes
+    - Explicit annotation
+    - Functions
+    - Methods
+    - Structs
+    - Bounds
+    - Coercion
+    - static
+    - elision
+- Traits
+  - Derive
+  - Operator Overloading
+  - Drop
+  - Iterators
+  - Clone
+- macro_rules!
+  - Designators
+  - Overload
+  - Repeat
+  - DRY (Don't Repeat Yourself)
+- Error handling
+  - panic
+  - Option & unwrap
+    - Combinators: map
+    - Combinators: and_then
+  - Result
+    - map for Result
+    - aliases for Result
+  - Multiple error types
+    - Early returns
+    - Introducing ?
+  - Defining an error type
+  - Other uses of ?
+  - Boxing errors
+  - Iterating over Results
+- Std library types
+  - Box, stack and heap
+  - Vectors
+  - Strings
+  - Option
+  - Result
+    - ?
+  - panic!
+  - HashMap
+    - Alternate/custom key types
+    - HashSet
+- Std misc
+  - Threads
+    - Testcase: map-reduce
+  - Channels
+  - Path
+  - File I/O
+    - open
+    - create
+  - Child processes
+    - Pipes
+    - Wait
+  - Filesystem Operations
+  - Program arguments
+    - Argument parsing
+  - Foreign Function Interface
+- Meta
+  - Documentation
+  - Testing
+- Unsafe Operations
+
+# <p align="center">Additional Resources</p>
+
+# <p align="center">Open Source Projects</p>
