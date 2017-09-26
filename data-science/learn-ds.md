@@ -131,8 +131,10 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Classifier
 - Prediction
 - Lift
-- Overfitting
 - Bias & Variance
+- Overfitting :Overfitting means the model is predicting the values very well on the training data but not on the test data.It is also called High Variance.
+- Underfitting
+- Regularization :To correct the overfitting we need to reduce the weights of parameters and regularization is the method for it. Check the link for more answers.https://stats.stackexchange.com/questions/152528/how-can-using-logistic-regression-without-regularization-be-better
 - Trees & Classification
 - Classification
  - Classification Rate
