@@ -4,7 +4,7 @@
 Introduction to **Data Science** provides a comprehensive overview of modern data science: the practice of obtaining, exploring, modeling, and interpreting data.
 
 #### What is [Data Science](https://en.wikipedia.org/wiki/Data_science)?
-Data science is a "concept to unify statistics, data analysis and their related methods" in order to "understand and analyze actual phenomena" with data. It employs techniques and theories drawn from many fields within the broad areas of **mathematics**, **statistics**, **information science**, and **computer science**, in particular from the subdomains of **machine learning**, **classification**, **cluster analysis**, **data mining**, **databases**, and **visualization**. Since, all of these topics are mentioned it is quite obvious that people might take it in wring way, that leads to our second question i.e What is not Data Science.
+Data science is a "concept to unify statistics, data analysis and their related methods" in order to "understand and analyze actual phenomena" with data. It employs techniques and theories drawn from many fields within the broad areas of **mathematics**, **statistics**, **information science**, and **computer science**, in particular from the subdomains of **machine learning**, **classification**, **cluster analysis**, **data mining**, **databases**, and **visualization**. Since, all of these topics are mentioned it is quite obvious that people might take it in wrong way, that leads to our second question i.e What is not Data Science.
 
 #### What is not Data Science?
 Since Data Science is buzz word in the media, people are compelled to assume it whatever they want to. If you ask set of people what Data Science exactly is, you might end up hearing plethora of definitions and concepts involved. Let's head to what it isn't:
@@ -122,33 +122,47 @@ Drawing insight from a piece of data involves understanding how it fits into the
 
 ## Machine Learning - hyperlink
 - What is ML?
-- Numerical Var
-- Catagorical Var
-- Supervised Learning
-- Unsupervised Learning
+- Variables
+  - Numerical
+  - Categorical
+- Learning
+  - Supervised Learning
+  - Unsupervised Learning
 - Concepts, Inputs & Attributes
 - Training & Test Data
 - Classifier
 - Prediction
 - Lift
 - Overfitting
+- Underfitting
 - Bias & Variance
-- Trees & Classification
 - Classification
- - Classification Rate
- - Decision Trees
- - Boosting
- - Naive Bayes Classifiers
- - K-Nearest Neighbor
- - Logistic Regression
-- Regression 
- - Ranking
- - Linear Regression
- - Perceptron
+- Classification Rate
+- Regression
+   - Simple Linear Regression
+   - Multiple Linear Regression
+   - Polynomial Regression
+   - Logistic Regression
+- Decision Trees
+- Random Forest
+- Boosting
+  - Gradient Boosting
+    - GBM
+    - XGBoost
+    - LightGBM
+    - CatBoost
+  - AdaBoost
+- Naive Bayes Classifiers
+- K-Nearest Neighbor
+- Ranking
 - Clustering
- - Hierarchical Clustering
- - K-Means Clustering
+  - K-Means Clustering
+  - Hierarchical Clustering
+- Perceptron
 - Neural Networks
+- Linear discriminant analysis
+- Quadratic discriminant analysis
+- Support Vector Machine
 - Sentiment Analysis
 - Collaborative Filtering
 - Tagging
@@ -235,6 +249,67 @@ Drawing insight from a piece of data involves understanding how it fits into the
 - Sampling
 - Stratified Sampling
 - Principle Component Analysis
+
+
+
+## <p align="center">Machine Learning</p>
+
+**Topics covered**:
+`Intelligence`
+`Algorithms`
+`Intelligent System`
+`Artificial Intelligence`
+
+
+####What is ML?
+
+Concept | Best Video Resource | Best Text Resource | Duration | Prerequisites 
+:-- | :--: | :--: | :--: | :--: 
+Basics | [Youtube](https://youtu.be/-rMMTv7XLYw?list=PLUZBeqSwWIJ2RJGqkMVwJcDrl0_haf6zo) | [Article](http://blog.hackerearth.com/explaining-basics-of-machine-learning-algorithms-applications) | 0.5 H | None
+Philosophy | [Youtube](https://youtu.be/R_3bqaUlSkk) | [Documentation](http://ml.typepad.com/machine_learning_thoughts/philosophy/) | 0.5 hour | Basics
+
+<br>
+
+
+### Variables
+This section apprise the types of data/variable.
+
+**Topics covered**:
+`Ordinal`
+`Nominal`
+`Discrete`
+`Continuos`
+
+Concept | Best Video Resource | Best Text Resource | Duration | Prerequisites 
+:-- | :--: | :--: | :--: | :--: 
+Numerical Variable | [Youtube](https://www.youtube.com/watch?v=9OKRHhakTmE) | [Documentation](https://mathtutoring.jimdo.com/statistics/numerical-data/) | 15 mins | Basic math
+Categorical Variable | [Youtube](https://www.youtube.com/watch?v=9OKRHhakTmE) | [Documentation](https://cyfar.org/types-variables-categorical) | 15 mins | Basic math
+
+ 
+<br>
+
+### Learning
+Explains the types of machine learning algorithms and when you should use each of them
+
+**Topics covered**:
+`Classification`
+`Labeled data`
+`Unlabeled data`
+`Regression`
+`Clustering`
+
+Concept | Best Video Resource | Best Text Resource | Duration | Prerequisites 
+:-- | :--: | :--: | :--: | :--: 
+Supervised learning | [Coursera](https://www.coursera.org/learn/machine-learning/lecture/1VkCb/supervised-learning) | [Documentation](https://www.saylor.org/site/wp-content/uploads/2011/11/CS405-6.2.1.2-WIKIPEDIA.pdf) | 1.5 hours | Statistics
+Unsupervised Learning | [Coursera](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning) | [Documentation](https://brilliant.org/wiki/unsupervised-learning/) | 0.5 hours | Statistics
+
+#### Tasks :
+- Make a list of popular supervised and unsupervised algorithms.
+- Frequently follow five reputed blogs/websites about Machine Learning.
+- List three famous machine learning problems and mention which algorithm can be used to solve each of them.
+
+<br>
+
 
 # <p align="center">Additional Resources</p>
 [An awesome Data Science repository to learn and apply for real world problems](https://github.com/bulutyazilim/awesome-datascience).
