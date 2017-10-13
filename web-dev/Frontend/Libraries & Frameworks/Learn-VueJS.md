@@ -4,6 +4,10 @@
 - Reusability & Composition
 - Tooling
 - Scaling up
+- Internals 
+- Migrating 
+- Additional Resources
+- Open Source 
 
 ## Essestials
 - Installation
