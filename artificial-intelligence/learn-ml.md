@@ -1,0 +1,155 @@
+# Preface 
+
+# Contents
+- Preface
+- Prerequisites
+- Concepts 
+- Additional Resources
+- Open Source
+
+# Prerequisites
+
+# Concepts 
+- AdaBoost 
+- Akaike information criterion 
+- annealed importance sampling 
+- backpropagation 
+- backpropagation for second-order methods 
+- bagging 
+- basis function expansions 
+- Baum-Welch algorithm 
+- Bayes net parameter learning 
+- Bayes net structure learning 
+- Bayes' rule 
+- Bayesian decision theory 
+- Bayesian linear regression 
+- Bayesian logistic regression 
+- Bayesian model averaging 
+- Bayesian model comparison 
+- Bayesian naive Bayes 
+- Bayesian networks 
+- Bayesian parameter estimation 
+- Bayesian parameter estimation in exponential families 
+- Bayesian parameter estimation: Gaussian distribution 
+- Bayesian parameter estimation: multinomial distribution 
+- Bayesian parameter estimation: multivariate Gaussians 
+- Bayesian PCA 
+- beta process 
+- bias-variance decomposition 
+- binary linear classifiers 
+- Boltzmann machines 
+- boosting as optimization 
+- Chinese restaurant franchise 
+- Chinese restaurant process 
+- Chow-Liu trees 
+- collapsed Gibbs sampling 
+- comparing Gaussian mixtures and k-means 
+- computations on multivariate Gaussians 
+- conditional random fields 
+- constructing kernels 
+- convolutional neural nets 
+- cross validation 
+- CRP clustering 
+- curse of dimensionality 
+- decision trees 
+- deep belief networks 
+- early stopping 
+- EM algorithm for PCA 
+- Expectation-Maximization algorithm 
+- F measure 
+- factor analysis 
+- feed-forward neural nets 
+- Fisher's linear discriminant 
+- fitting logistic regression with iterative reweighted least squares 
+- forward-backward algorithm 
+- gamma distribution 
+- Gaussian discriminant analysis 
+- Gaussian process classification 
+- Gaussian process regression 
+- Gaussian processes 
+- generalization 
+- generalized linear models 
+- Gibbs sampling 
+- Gibbs sampling as a special case of Metropolis-Hastings 
+- GP classification with the Laplace approximation 
+- Hamiltonian Monte Carlo 
+- hidden Markov models 
+- hierarchical Dirichlet process 
+- Hopfield networks 
+- IBP linear-Gaussian model 
+- independent component analysis 
+- Indian buffet process 
+- information form for multivariate Gaussians 
+- Jensen's inequality 
+- K nearest neighbors 
+- k-means 
+- k-means++ 
+- kernel SVM 
+- kernel trick 
+- Laplace approximation 
+- LASSO 
+- latent Dirichlet allocation 
+- latent semantic analysis 
+- learning Bayes net parameters with missing data 
+- learning GP hyperparameters 
+- learning invariances in neural nets 
+- learning linear dynamical systems 
+- linear regression 
+- linear regression as maximum likelihood 
+- linear regression: closed-form solution 
+- linear-Gaussian models 
+- logistic regression 
+- MAP parameter estimation
+- Markov chain Monte Carlo 
+- Markov chains 
+- Markov models 
+- Markov random fields 
+- maximum likelihood 
+- maximum likelihood in exponential families 
+- MCMC convergence 
+- mean field approximation 
+- Metropolis-Hastings algorithm 
+- mixture of Gaussians models 
+- MRF parameter learning 
+- multidimensional scaling 
+- multinomial logistic regression 
+- naive Bayes 
+- perceptron algorithm 
+- precision and recall 
+- principal component analysis 
+- principal component analysis (proof) 
+- probabilistic Latent Semantic Analysis 
+- probabilistic PCA 
+- probit regression 
+- random forests 
+- recurrent neural networks 
+- restricted Boltzmann machines 
+- reversible jump MCMC 
+- ridge regression 
+- ridge regression as SVD 
+- sequential Monte Carlo 
+- slice sampling 
+- soft margin SVM 
+- soft weight sharing in neural nets 
+- sparse coding 
+- structured mean field 
+- support vector machine 
+- support vector regression 
+- SVM optimality conditions 
+- SVM vs. logistic regression 
+- tangent propagation 
+- unsupervised pre-training 
+- variational Bayes
+- variational Bayes EM 
+- variational inference 
+- variational inference and exponential families 
+- variational linear regression 
+- variational logistic regression 
+- variational mixture of Gaussians 
+- VC dimension 
+- Viterbi algorithm 
+- weight decay in neural networks
+
+# Additional resources
+
+# Open Source
