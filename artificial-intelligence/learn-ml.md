@@ -151,5 +151,5 @@
 - weight decay in neural networks
 
 # Additional resources
-
+- [Deep Learning Book](http://www.deeplearningbook.org)
 # Open Source
