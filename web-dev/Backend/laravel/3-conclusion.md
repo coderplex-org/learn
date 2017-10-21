@@ -9,4 +9,4 @@ title: Conclusion
 
 ## Open Source Projects
 
-There are many open source Laravel Projects to which you can contribute to. Some of them can be found [here](http://openlaravel.com/)
+There are many open source Laravel Projects to which you can contribute to. Some of them can be found [right here](http://openlaravel.com/)
