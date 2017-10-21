@@ -1,0 +1,30 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description":
+    "One of the major struggles with self-learning as developers today is figuring out where to get started with whatever technology you're interested in, and then chalking out your overall learning path from that point forward. There is a lot of unnecessary trial and error that everyone goes through, which is inefficient and something we as developers should try to reduce. The goal of these open source guides is to recommend the best online resources (video + text) to learn any and every technology out there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "markdownlint .",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.md": ["markdownlint", "git add"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderplex/learn.git"
+  },
+  "keywords": [],
+  "author": "coderplex <dev@coderplex.org> (https://www.coderplex.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderplex/learn/issues"
+  },
+  "homepage": "https://github.com/coderplex/learn#readme",
+  "devDependencies": {
+    "husky": "0.14.3",
+    "lint-staged": "4.3.0",
+    "markdownlint-cli": "0.3.1"
+  }
+}
