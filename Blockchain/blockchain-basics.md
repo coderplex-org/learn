@@ -22,7 +22,7 @@
   - What are Dapps and examples
   - Introduction to Solidity, Solidity IDE, MIST browser, Genesis.json
   - What are Smart contracts and examples in Solidity
-  - Cretion of chain data and private accounts in Ethereum
+  - Creation of chain data and private accounts in Ethereum
   - Project releated to Ethereum that creates smart contractsm one Dapps 
 # 5. Proof of Existance
   - Concept of Proof of Existance and examples
