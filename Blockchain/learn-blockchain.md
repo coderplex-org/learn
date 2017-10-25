@@ -37,5 +37,5 @@ Prerequisites
 - Additional Resources
   [Awesome Blockchain](https://github.com/coderplex/awesome-blockchain)
 - Open Source Projects
- - [OpenMined a project on decentralized ownership of data and intelligence.](https://github.com/OpenMined/)
+  - [OpenMined a project on decentralized ownership of data and intelligence.](https://github.com/OpenMined/)
 
