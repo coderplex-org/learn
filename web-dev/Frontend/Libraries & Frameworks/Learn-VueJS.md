@@ -9,7 +9,7 @@
 - Additional Resources
 - Open Source 
 
-## Essestials
+## Essentials
 - Installation
 - Introduction
   - What is Vue.js?
