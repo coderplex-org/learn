@@ -35,7 +35,8 @@ Prerequisites
   - Paxos - (https://understandingpaxos.wordpress.com/)
   - DHT - Distributed hash table
 - Additional Resources
-  [Awesome Blockchain](https://github.com/coderplex/awesome-blockchain)
+  -[Awesome Blockchain](https://github.com/coderplex/awesome-blockchain)
+  -[Naive Implementation of BlockChain](https://github.com/lhartikk/naivechain)
 - Open Source Projects
   - [OpenMined a project on decentralized ownership of data and intelligence.](https://github.com/OpenMined/)
 
