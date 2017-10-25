@@ -1,5 +1,5 @@
 ## Contents
-- Essestials
+- Essentials
 - Transitions & Animation
 - Reusability & Composition
 - Tooling
