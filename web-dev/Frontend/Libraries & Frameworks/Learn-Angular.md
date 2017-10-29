@@ -4,6 +4,7 @@
 - NodeJS, npm, bower[, webpack]
 - Single Page Applications
 
+
 #### 1. Overview of AngularJS
 - 1.1 AngularJS architecture overview
 - 1.2 Angular JS versions (ng, ng2 and ng4)
