@@ -1,0 +1,47 @@
+{
+  "overview": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/overview.md",
+  "guide": [
+    {
+      "name": "Prerequisites",
+      "url": "0"
+    },
+    {
+      "name": "Introduction to MVC architecture in PHP",
+      "url": "1"
+    },
+    {
+      "name": "Models Views Controllers and Routes",
+      "url": "2"
+    },
+    {
+      "name": "FrontEnd",
+      "url": "3"
+    },
+    {
+      "name": "Relationships",
+      "url": "4"
+    },
+    {
+      "name": "Authentication",
+      "url": "5"
+    },
+    {
+      "name": "View Composers and Archives",
+      "url": "6"
+    },
+    {
+      "name": "Testing & Seeding",
+      "url": "7"
+    },
+    {
+      "name": "Final Project",
+      "url": "8"
+    }
+  ],
+  "Contributors": [
+    {
+      "name": "P Bhanu Teja",
+      "github": "https://github.com/pbteja1998"
+    }
+  ]
+}
