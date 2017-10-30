@@ -3,39 +3,39 @@
   "guide": [
     {
       "name": "Prerequisites",
-      "url": "0"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/0.md"
     },
     {
       "name": "Introduction to MVC architecture in PHP",
-      "url": "1"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/1.md"
     },
     {
       "name": "Models Views Controllers and Routes",
-      "url": "2"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/2.md"
     },
     {
       "name": "FrontEnd",
-      "url": "3"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/3.md"
     },
     {
       "name": "Relationships",
-      "url": "4"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/4.md"
     },
     {
       "name": "Authentication",
-      "url": "5"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/5.md"
     },
     {
       "name": "View Composers and Archives",
-      "url": "6"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/6.md"
     },
     {
       "name": "Testing & Seeding",
-      "url": "7"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/7.md"
     },
     {
       "name": "Final Project",
-      "url": "8"
+      "url": "https://rawgit.com/coderplex/learn/cdn/cdn/laravel/guide/8.md"
     }
   ],
   "Contributors": [
