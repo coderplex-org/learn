@@ -1,6 +1,3 @@
----
-title: About Laravel
----
 # About Laravel
 
 **Laravel** is a free, open-source PHP web framework, created by **Taylor Otwell** and intended for the development of web applications following the **Model–View–Controller (MVC)** architectural pattern.
