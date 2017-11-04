@@ -26,14 +26,14 @@
 
 # Prerequisites
 
-Basics of HTML CSS & JS.
+Basics of HTML, CSS & JS.
 
 # Resources
 
  -  [What Web Can Do Today](https://whatwebcando.today/)
- -  [You Don�t Know JS](https://github.com/getify/You-Dont-Know-JS)
+ -  [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
  -  [BEMCSS](http://getbem.com/introduction/)
 
 # Time-estimate
 
-5 - 8 per day
+- 5 - 8 hours per day

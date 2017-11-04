@@ -38,3 +38,7 @@
 - 5.4 Directive scope and isolate scope
 
 #### 6. Testing
+- 6.1 Testing Components
+- 6.2 Testing Directives
+- 6.3 Testing Services
+- 6.4 Mocking Dependencies

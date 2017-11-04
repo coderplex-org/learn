@@ -1,0 +1,40 @@
+laravel
+├── 0-preface.md
+├── 1-community.md
+├── 2-curriculum
+│   ├── 0-prerequisites.md
+│   ├── 1-introduction-to-mvc.md
+│   ├── 2-core-larvel
+│   │   ├── 0-installaion.md
+│   │   ├── 1-MVC-and-routes
+│   │   │   ├── 0-basic-routing-and-views.md
+│   │   │   ├── 1-passing-data-to-views.md
+│   │   │   ├── 2-database-setup.md
+│   │   │   ├── 3-working-with-query-builder.md
+│   │   │   ├── 4-eloquent.md
+│   │   │   ├── 5-controllers.md
+│   │   │   └── 6-route-model-binding.md
+│   │   ├── 2-frontend
+│   │   │   ├── 0-layouts-and-structures.md
+│   │   │   ├── 1-form-requests-and-csrf.md
+│   │   │   ├── 2-form-validation.md
+│   │   │   ├── 3-rendering.md
+│   │   │   ├── 4-laravel-mix.md
+│   │   │   └── 5-flash-messages.md
+│   │   ├── 3-relationships
+│   │   │   ├── 0-eloquent-relationships.md
+│   │   │   ├── 1-one-to-many-relationships.md
+│   │   │   └── 2-pivot-tables.md
+│   │   ├── 4-authentication
+│   │   │   ├── 0-scaffold-authentication.md
+│   │   │   └── 1-manual-authentication.md
+│   │   └── 5-archives
+│   │       ├── 0-add-archives.md
+│   │       └── 1-view-composers.md
+│   ├── 3-advance-larvel
+│   │   └── 0-testing-and-seeding.md
+│   └── 4-final-project.md
+├── 3-conclusion.md
+└── toc.txt
+
+8 directories, 29 files
