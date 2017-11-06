@@ -36,6 +36,7 @@ None
 - [Understanding ES6](https://leanpub.com/understandinges6/read)
 - [ES6 Interactive Guide](http://stack.formidable.com/es6-interactive-guide/#/)
 - [Exploring ES6](http://exploringjs.com/es6/)
+- [JS Style Guide by Airbnb](https://github.com/airbnb/javascript)
 
 ## Time estimate 
 - 3 - 5 hours per day
