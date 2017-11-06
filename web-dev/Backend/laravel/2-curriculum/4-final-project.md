@@ -12,7 +12,7 @@ Not only does real project work look great on a resume, the project will *valida
 
 - [Social Networking Site](https://gist.github.com/pbteja1998/7651d611e8b22b5228713f12400ce624) (50 hrs)
 - [OAuth Authentication with Social Networking Sites](https://gist.github.com/pbteja1998/6a3649b65763681f14d1b98a3603515b) (1 hr)
-- E-Commerce Applicatio
+- E-Commerce Application
 - Chat Application
 
 ## Evaluation
