@@ -21,6 +21,7 @@ None
 ## Resources
 - [freeCodeCamp Curriculum](https://beta.freecodecamp.com/en/map) (condensed) 
 - [HTML](http://htmlreference.io/)/[CSS](http://cssreference.io/) reference
+- [The Magic Of CSS](http://adamschwartz.co/magic-of-css/)
 - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web)
 - [Can I Use](http://caniuse.com)
 - [Learn RegEx](http://regexone.com/)
