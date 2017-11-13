@@ -1,6 +1,6 @@
-### Before you go
-- Get familiar with [Javascript]()
-
+### Prerequities
+- [Learn Javascript](https://github.com/getify/You-Dont-Know-JS)
+- Learn HTML & CSS
 ### Kick start
 - [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
 - [Read the docs!](https://reactjs.org/docs/hello-world.html)
