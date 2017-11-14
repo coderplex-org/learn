@@ -21,6 +21,7 @@ None
 ## Resources
 - [freeCodeCamp Curriculum](https://beta.freecodecamp.com/en/map) (condensed) 
 - [HTML](http://htmlreference.io/)/[CSS](http://cssreference.io/) reference
+- [The Magic Of CSS](http://adamschwartz.co/magic-of-css/)
 - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web)
 - [Can I Use](http://caniuse.com)
 - [Learn RegEx](http://regexone.com/)
@@ -35,6 +36,7 @@ None
 - [ES6 Features](http://es6-features.org/)
 - [Understanding ES6](https://leanpub.com/understandinges6/read)
 - [ES6 Interactive Guide](http://stack.formidable.com/es6-interactive-guide/#/)
+- [Exploring ES6](http://exploringjs.com/es6/)
 
 ## Time estimate 
 - 3 - 5 hours per day
