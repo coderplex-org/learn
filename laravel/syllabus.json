@@ -1,0 +1,155 @@
+[
+  {
+    "unit": {
+      "name": "Preface",
+    },
+    "chapters": [
+      {
+        "name": "Choosing laravel",
+        "url": "choosing-laravel.md",
+      },
+      {
+        "name": "Prerequisites",
+        "url": "prerequisites.md",
+      },
+      {
+        "name":"Installation",
+        "url":"installation.md"
+      }
+    ],
+  },
+  {
+    "unit": {
+      "name": "Models, Views, Controllers and Routes",
+    },
+    "chapters": [
+      {
+        "name": "Introduction to MVC",
+        "url": "introduction-to-mvc.md",
+      },
+      {
+        "name": "Basic Routing and Views",
+        "url": "basic-routing-and-views.md",
+      },
+      {
+        "name": "Pass Data to Views",
+        "url": "pass-data-to-views.md",
+      },
+      {
+        "name": "Database Setup",
+        "url": "database-setup.md",
+      },
+      {
+        "name": "Working with Query Builder",
+        "url": "working-with-query-builder.md",
+      },
+      {
+        "name": "Eloquent",
+        "url": "eloquent.md",
+      },
+      {
+        "name": "Controllers",
+        "url": "controllers.md",
+      },
+      {
+        "name": "Route Model Binding",
+        "url": "route-model-binding.md",
+      },
+    ],
+  },
+  {
+    "unit": {
+      "name": "Front-End",
+    },
+    "chapters": [
+      {
+        "name": "Layouts and Structures",
+        "url": "layouts-and-structures.md",
+      },
+      {
+        "name": "Form Requests and CSRF",
+        "url": "form-requests-and-CSRF.md",
+      },
+      {
+        "name": "Form Validation",
+        "url": "form-validation.md",
+      },
+      {
+        "name": "Rendering",
+        "url": "rendering",
+      },
+      {
+        "name": "Laravel Mix",
+        "url": "laravel-mix.md",
+      },
+      {
+        "name": "Flash Messaging",
+        "url": "flash-messaging.md",
+      },
+    ],
+  },
+  {
+    "unit": {
+      "name": "Relationships",
+    },
+    "chapters": [
+      {
+        "name": "Eloquent Relationships",
+        "url": "eloquent-relationships.md",
+      },
+      {
+        "name": "One-to-Many Relationship",
+        "url": "one-to-many-relationship.md",
+      },
+      {
+        "name": "Pivot Tables",
+        "url": "pivot-tables.md",
+      },
+    ],
+  },
+  {
+    "unit": {
+      "name": "Authentication",
+    },
+    "chapters": [
+      {
+        "name": "Scaffold Authentication",
+        "url": "scaffold-authentication.md",
+      },
+      {
+        "name": "Manual Authentication",
+        "url": "manual-authentication.md",
+      },
+    ],
+  },
+  {
+    "unit": {
+      "name": "View Composers and Archives",
+    },
+    "chapters": [
+      {
+        "name": "Add Archives",
+        "url": "add-archives.md",
+      },
+      {
+        "name": "View Composers",
+        "url": "view-composers.md",
+      },
+    ],
+  },
+  {
+    "unit": {
+      "name": "Testing & Seeding",
+    },
+    "chapters": [
+      {
+        "name": "Testing",
+        "url": "testing.md",
+      },
+      {
+        "name": "Seeding",
+        "url": "seeding.md",
+      },
+    ],
+  },
+];
