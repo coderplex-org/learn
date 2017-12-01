@@ -1,155 +1,172 @@
+/*Change to production url */
 [
   {
     "unit": {
-      "name": "Preface",
+      "name": "Preface"
     },
     "chapters": [
       {
         "name": "Choosing laravel",
-        "url": "choosing-laravel.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/choosing-laravel.md"
       },
       {
         "name": "Prerequisites",
-        "url": "prerequisites.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/prerequisites.md"
       },
       {
-        "name":"Installation",
-        "url":"installation.md"
+        "name": "Installation",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/installation.md"
       }
-    ],
+    ]
   },
   {
     "unit": {
-      "name": "Models, Views, Controllers and Routes",
+      "name": "Models, Views, Controllers and Routes"
     },
     "chapters": [
       {
         "name": "Introduction to MVC",
-        "url": "introduction-to-mvc.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/introduction-to-mvc.md"
       },
       {
         "name": "Basic Routing and Views",
-        "url": "basic-routing-and-views.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/basic-routing-and-views.md"
       },
       {
         "name": "Pass Data to Views",
-        "url": "pass-data-to-views.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/pass-data-to-views.md"
       },
       {
         "name": "Database Setup",
-        "url": "database-setup.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/database-setup.md"
       },
       {
         "name": "Working with Query Builder",
-        "url": "working-with-query-builder.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/working-with-query-builder.md"
       },
       {
         "name": "Eloquent",
-        "url": "eloquent.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/eloquent.md"
       },
       {
         "name": "Controllers",
-        "url": "controllers.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/controllers.md"
       },
       {
         "name": "Route Model Binding",
-        "url": "route-model-binding.md",
-      },
-    ],
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/route-model-binding.md"
+      }
+    ]
   },
   {
     "unit": {
-      "name": "Front-End",
+      "name": "Front-End"
     },
     "chapters": [
       {
         "name": "Layouts and Structures",
-        "url": "layouts-and-structures.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/layouts-and-structures.md"
       },
       {
         "name": "Form Requests and CSRF",
-        "url": "form-requests-and-CSRF.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/form-requests-and-CSRF.md"
       },
       {
         "name": "Form Validation",
-        "url": "form-validation.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/form-validation.md"
       },
       {
         "name": "Rendering",
-        "url": "rendering",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/rendering"
       },
       {
         "name": "Laravel Mix",
-        "url": "laravel-mix.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/laravel-mix.md"
       },
       {
         "name": "Flash Messaging",
-        "url": "flash-messaging.md",
-      },
-    ],
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/flash-messaging.md"
+      }
+    ]
   },
   {
     "unit": {
-      "name": "Relationships",
+      "name": "Relationships"
     },
     "chapters": [
       {
         "name": "Eloquent Relationships",
-        "url": "eloquent-relationships.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/eloquent-relationships.md"
       },
       {
         "name": "One-to-Many Relationship",
-        "url": "one-to-many-relationship.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/one-to-many-relationship.md"
       },
       {
         "name": "Pivot Tables",
-        "url": "pivot-tables.md",
-      },
-    ],
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/pivot-tables.md"
+      }
+    ]
   },
   {
     "unit": {
-      "name": "Authentication",
+      "name": "Authentication"
     },
     "chapters": [
       {
         "name": "Scaffold Authentication",
-        "url": "scaffold-authentication.md",
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/scaffold-authentication.md"
       },
       {
         "name": "Manual Authentication",
-        "url": "manual-authentication.md",
-      },
-    ],
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/manual-authentication.md"
+      }
+    ]
   },
   {
     "unit": {
-      "name": "View Composers and Archives",
+      "name": "View Composers and Archives"
     },
     "chapters": [
       {
         "name": "Add Archives",
-        "url": "add-archives.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/add-archives.md"
       },
       {
         "name": "View Composers",
-        "url": "view-composers.md",
-      },
-    ],
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/laravel/view-composers.md"
+      }
+    ]
   },
   {
     "unit": {
-      "name": "Testing & Seeding",
+      "name": "Testing & Seeding"
     },
     "chapters": [
       {
         "name": "Testing",
-        "url": "testing.md",
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/testing.md"
       },
       {
         "name": "Seeding",
-        "url": "seeding.md",
-      },
-    ],
-  },
-];
+        "url": "https://rawgit.com/coderplex/learn/cdn/laravel/seeding.md"
+      }
+    ]
+  }
+]
