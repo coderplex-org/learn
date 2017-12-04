@@ -1,6 +1,4 @@
-### Introduction to MVC architecture in PHP
-
-This course will introduce you to the MVC Pattern using PHP. This course is required, but feel free to skip to the next section if you already know what MVC pattern mean.
+### Resources
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:

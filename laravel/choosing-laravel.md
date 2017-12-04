@@ -1,4 +1,4 @@
-### Why choose Laravel when there are tons of other PHP frameworks ? Here are a few reasons.
+### Here are a few reasons.
 
 - **Security**: Its truth that no application is 100% secure and things will depend on how you are using and writing code and its structure. But in comparison to other frameworks Laravel has some good signs of security. Laravel takes care of security with CSRF tokens. These checks on each POST request, so make sure you use them, essentially this protects you from someone changing the nature of the request, i.e. from POST to GET.
 - **Emerging star**: Lots of web development companies are adopting Laravel very quickly due to its dynamic capabilities and they are getting good response. You can see the popularity in [Google trends](https://trends.google.com/trends/explore?q=yii,CodeIgniter,Zend%20Framework,Cakephp,Laravel&hl=en-US). In Google trends you will see the difference clearly as how this Laravel framework is gaining popularity and its growing exponentially.

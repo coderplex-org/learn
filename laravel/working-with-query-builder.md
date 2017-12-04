@@ -1,11 +1,11 @@
-### Working with Query Builder
+### Resources
 
 Concept | Best Video Resource | Best Text Resource | Duration | Prerequisites
 :-- | :--: | :--: | :--: | :--:
 Working with Query Builder | [Migrations and Query Builder](https://laracasts.com/series/laravel-from-scratch-2017/episodes/6) | [Migrations](https://laravel.com/docs/5.4/migrations)| 1 hr | Database Setup
 Working with Query Builder | [Migrations and Query Builder](https://laracasts.com/series/laravel-from-scratch-2017/episodes/6) | [Query Builder](https://laravel.com/docs/5.4/queries) | 1 hr | Database Setup
 
-#### Tasks :
+### Tasks :
 - Create two tables `posts` and `comments` and `tasks`.
 - `posts` table should contain `title` and `body`. `title` should be a unique field.
 - `comments` table should contain a `comment_body`

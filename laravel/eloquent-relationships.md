@@ -1,4 +1,4 @@
-### Eloquent Relationships
+### Resources
 
 Concept | Best Video Resource | Best Text Resource | Duration | Prerequisites
 :-- | :--: | :--: | :--: | :--:
