@@ -18,9 +18,10 @@
 - [Understanding React's Component Lifecycle](https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d)
 - Component State & this.setState
 - Stateless Functional Components
-- Controlled & Uncontrolled Inputs
+- [Controlled Components](https://reactjs.org/docs/forms.html)
+- [Uncontrolled Components](https://reactjs.org/docs/uncontrolled-components.html)
 - Create a simple login form with React
-- Accessing DOM Elements from React Components
+- [Accessing DOM Elements from React Components](https://reactjs.org/docs/refs-and-the-dom.html)
 - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 - [Handling Errors](https://reactjs.org/docs/error-boundaries.html)
 
@@ -33,7 +34,7 @@
 - SSR
 
 ### Advanced
-- Animations 
-- Redux (An entirely different topic altogether)
+- [Animations](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e) 
+- [Redux (An entirely different topic altogether)](https://redux.js.org/docs/introduction/)
 - Webpack (This might require a different roadmap altogether)
 - [React Under The Hood](https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/)
