@@ -79,7 +79,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Take an application like Instagram and plan on what parts of it are re-usable and make a component.
+
+
 
 # Getting Started
 
@@ -107,7 +109,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Use `create-react-app` and create a sample React app.
+* Convert km to miles converter that you built previously into this application that you created now.
+* Build the application using `create-react-app`
+* Install serve by `npm i -g serve` and `serve build` to test the appliction that you built.
 
 ## JavaScript XML Syntax
 
