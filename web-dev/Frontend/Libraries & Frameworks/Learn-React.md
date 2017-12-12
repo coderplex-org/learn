@@ -26,6 +26,18 @@
 * [Forms](#forms)
   * [Controlled Components](#controlled-components)
   * [Uncontrolled Components](#uncontrolled-components)
+* [Composition](#composition)
+  * [Lifting state up](#lifting-state-up)
+  * [Composition vs Inheritance](#composition-vs-inheritance)
+  * [Context](#context)
+* [Tools](#tools)
+  * [Developer Tools](#developer-tools)
+* [In depth discussions](#in-depth-discussions)
+  * [JSX in depth](#jsx-in-depth)
+  * [Synthetic Events](#synthetic-events)
+  * [React Without JSX](#react-without-jsx)
+  * [React without ES6](#react-without-es6)
+  * [Reconcilation - Diff Algorithm](#reconcilation---diff-algorithm)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -104,6 +116,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 | Concept |                      Best Video Resource                       |                            Best Text Resource                             |                        Documentation                         | Duration |
 | :------ | :------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX     | [EggHead](https://egghead.io/lessons/react-use-jsx-with-react) | [ReactEnlightment](https://www.reactenlightenment.com/react-jsx/5.1.html) | [ReactJS/jsx](https://reactjs.org/docs/introducing-jsx.html) | 6 hours  |
+
+### Tasks :
+
+* Add
 
 # Components
 
@@ -205,105 +221,138 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 * Add
 
-<!-- ## Basics
+# Composition
 
-* Communicating Between Components
-  * Parent To Child using 'props'
-  * Child To Parent using 'callbacks'
-* Stateless Functional Components
-* Controlled & Uncontrolled Inputs
-* Create a simple login form with React
-* Accessing DOM Elements from React Components
-* [Handling Errors](https://reactjs.org/docs/error-boundaries.html)
-  Imperative vs Declarative
-  Composition
-  Virtual DOM
-  children
-  prop-types package
-  createElement
-  functional setState
-  Container vs Presentational Components
-  Stateless Functional Components
-  Sytnthetic Events
-  Private Stateless Functional Components
+## Lifting state up
 
-Working with Components
+### Resources
 
-    Events
-    Compositions
-    Reusable Components
+| Concept       |                  Best Video Resource                   |                              Best Text Resource                              |                              Documentation                              | Duration |
+| :------------ | :----------------------------------------------------: | :--------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :------: |
+| Lifting state | [Youtube](https://www.youtube.com/watch?v=a9pr1K2ueuA) | [Gerardnico](https://gerardnico.com/wiki/lang/javascript/react/shared_state) | [ReactJS/lifting-state](https://reactjs.org/docs/lifting-state-up.html) | 2 hours  |
 
-Forms
+### Tasks:
 
-    Controlled Components
-    Uncontrolled Components
-    Review of React
+* as
 
-        What is it?
-        Key React concepts and components
-        Building a Hello World UI
+## Composition vs Inheritance
 
+### Resources
 
-    Advanced React Components
+| Concept                    |                   Best Video Resource                   |                          Best Text Resource                           |                                   Documentation                                   | Duration |
+| :------------------------- | :-----------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :------: |
+| composition vs inheritance | [ViennaJS](https://www.youtube.com/watch?v=3Wo7InXlLfw) | [Brew](http://blog.brew.com.hk/react-101-composition-vs-inheritance/) | [ReactJS/comp-vs-inher](https://reactjs.org/docs/composition-vs-inheritance.html) | 1 hours  |
 
-        Component Life-Cycle
-        Virtual DOM
-        Events
-        State Machines
-        Compositions
-        Communication Between Components
-        Reusable Components
-        Cloning Components
+### Tasks:
 
-    Introduction to Flux
+* Advanced
 
-        Key Flux concepts
-        Actions
-        Dispatchers
-        Stores
-        Flows
+## Context
 
-    Building your first Flux application
+### Resources
 
-        Organizing your in code  and understanding the mental model
-        Creating your Hello World
-        Incorporating AJAX and Web Sockets
+| Concept |                   Best Video Resource                    |                                       Best Text Resource                                       |                      Documentation                       | Duration |
+| :------ | :------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :------------------------------------------------------: | :------: |
+| Context | [ReactCast](https://www.youtube.com/watch?v=lxq938kqIss) | [JSPlayground](https://javascriptplayground.com/blog/2017/02/context-in-reactjs-applications/) | [ReactJS/context](https://reactjs.org/docs/context.html) | 4 hours  |
 
-    Working with Dispatchers
+### Tasks:
 
-        Understand the purpose, and design
-        Callbacks and the Dispatcher
+* Advanced
 
-    Stores
+# Tools
 
-        Understand the purpose of stores
-        Associating stores with the dispatcher
+## Developer Tools
 
-    Components
+### Resources
 
-        How to connect into stores
-            How to connect into actions
+| Concept                |                  Best Video Resource                   |                                      Best Text Resource                                      |                                     Documentation                                      | Duration |
+| :--------------------- | :----------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------: |
+| Dev tools & Experience | [Youtube](https://www.youtube.com/watch?v=qXVakfdA040) | [Facebook/React-DevTools](https://github.com/facebook/react-devtools#react-developer-tools-) | [ReactJS/dev-ex](https://reactjs.org/docs/design-principles.html#developer-experience) | 1 hours  |
 
-    Redux
+### Tasks :
 
-        Explore differences between Redux and normal Flux
-        Reducer Functions
-        Working with one store
-        Advantages and Disadvantages of Redux
+* Add
 
-    Working with the DOM
+## Proptypes
 
-        Referencing DOM Elements
-        DOM Manipulation
-        HTML 5 Drag and Drop
+### Resources
 
-    Node.js and Server DOM Manipulation
-    Unit Testing with TestUtils
+| Concept   |                                       Best Video Resource                                        |                           Best Text Resource                            |                                  Documentation                                  | Duration |
+| :-------- | :----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :------: |
+| PropTypes | [EggHead](https://egghead.io/lessons/react-validate-custom-react-component-props-with-proptypes) | [Facebook/PropTypes](https://github.com/facebook/prop-types#prop-types) | [ReactJS/prop-types](https://reactjs.org/docs/typechecking-with-proptypes.html) | 1 hours  |
 
-        Unit Testing with Mocha, Chai and Sinon
-        How to write React Component Unit Tests with Mocha and Chai
-        How to spy with Sinon
-        Testing Components
-        Testing DOM Manipulations
-        Testing Properties and State
-        Simulating Events -->
+### Tasks :
+
+* Add
+
+## Error Boundaries
+
+### Resources
+
+| Concept          |                                      Best Video Resource                                      |                      Best Text Resource                      |                               Documentation                                | Duration |
+| :--------------- | :-------------------------------------------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------------------------: | :------: |
+| Error Boundaries | [EggHead](https://egghead.io/lessons/react-error-handling-using-error-boundaries-in-react-16) | [Bugsnag](https://blog.bugsnag.com/react-16-error-handling/) | [ReactJS/error-boundaries](https://reactjs.org/docs/error-boundaries.html) | 1 hours  |
+
+### Tasks :
+
+* Add
+
+# In depth discussions
+
+## JSX in depth
+
+### Resources
+
+| Concept        |                 Best Video Resource                 |                            Best Text Resource                             |                        Documentation                         | Duration |
+| :------------- | :-------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
+| JSX in details | [EggHead](https://egghead.io/lessons/jsx-deep-dive) | [PoonyFo](https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts) | [ReactJS/jsx-in](https://reactjs.org/docs/jsx-in-depth.html) | 12 hours |
+
+### Tasks :
+
+## Synthetic Events
+
+### Resources
+
+| Concept      |                  Best Video Resource                   | Best Text Resource | Documentation | Duration |
+| :----------- | :----------------------------------------------------: | :----------------: | :-----------: | :------: |
+| React events | [Youtube](https://www.youtube.com/watch?v=dRo_egw7tBc) |                    |               | 12 hours |
+
+### Tasks :
+
+* Add
+
+## React Without JSX
+
+### Resources
+
+| Concept           |                 Best Video Resource                 |                           Best Text Resource                           |                           Documentation                           | Duration |
+| :---------------- | :-------------------------------------------------: | :--------------------------------------------------------------------: | :---------------------------------------------------------------: | :------: |
+| React without JSX | [EggHead](https://egghead.io/lessons/jsx-deep-dive) | [Brain Mock](https://mockbrian.com/blog/2017/08/11/react-without-jsx/) | [ReactJS/no-jsx](https://reactjs.org/docs/react-without-jsx.html) | 2 hours  |
+
+### Tasks :
+
+* Add
+
+## React without ES6
+
+### Resources
+
+| Concept           |                   Best Video Resource                    |                                  Best Text Resource                                  |                           Documentation                           | Duration |
+| :---------------- | :------------------------------------------------------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------: | :------: |
+| React without es6 | [LiveCodin](https://www.youtube.com/watch?v=go1DilUf2a8) | [Medium](https://medium.com/@clmyles/react-without-npm-babel-or-webpack-1e9a6049714) | [ReactJS/no-es6](https://reactjs.org/docs/react-without-es6.html) | 2 hours  |
+
+### Tasks :
+
+* Add
+
+## Reconcilation - Diff Algorithm
+
+### Resources
+
+| Concept       |                                                 Best Video Resource                                                 |                                         Best Text Resource                                         |                             Documentation                             | Duration |
+| :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
+| Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
+
+### Tasks :
+
+* Add
