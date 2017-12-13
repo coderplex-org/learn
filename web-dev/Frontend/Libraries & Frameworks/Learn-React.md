@@ -150,7 +150,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Create a time Component which updates automatically and always shows the current time. Time should be in the format `HH:MM:SS AM/PM`.
+* Create an Time Application which updates automatically and always shows the current time. Time should be in the format `HH:MM:SS AM/PM`.
 
 ## Conditional Rendering
 
@@ -162,7 +162,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Create a component `<Greet />` which displays "Good morning/evening/night" based on the time.
+* Create an application with component `<Greet />` which displays "Good morning/evening/night" based on the time.
 
 ## Data flow
 
@@ -174,7 +174,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Create a BMI calculator component. 
+* Create a BMI calculator application. 
     - This should internally contain two components, inputs for height and weight. 
     - Display the result in the BMI component itself.
     - We should be able to use it as `<BMICalc />`
@@ -189,7 +189,8 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build an application which has a search bar. When we enter any Github username in it, show the user's details in a card below.
+  - The card should make use of all the component lifecycle methods.
 
 ## Events
 
