@@ -216,7 +216,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build an app which has a sign up form for students.
+  - Year of passing should be dropdown and should contain only 5 years back from now.
+  - Take in the date of birth and show his age next to dob input
+  - Suggest a few interested topics to select from a list of suggestions. These suggestions should appear as a type-ahead.
 
 ## Uncontrolled Components
 
