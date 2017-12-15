@@ -122,9 +122,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------ | :------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX     | [EggHead](https://egghead.io/lessons/react-use-jsx-with-react) | [ReactEnlightment](https://www.reactenlightenment.com/react-jsx/5.1.html) | [ReactJS/jsx](https://reactjs.org/docs/introducing-jsx.html) | 6 hours  |
 
-### Tasks :
-
-* Add
 
 # Components
 
@@ -202,7 +199,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build a todo application with following requirements
+  - Input field to add new todos
+  - Click on todo to toggle completion. Maybe strikethrough if its completed.
+  - Double click on a todo to delete it.
 
 # Forms
 
@@ -231,7 +231,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Built an app that shows a red color rectangle using canvas elements.
 
 # Composition
 
@@ -245,7 +245,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* as
+* Add
 
 ## Composition vs Inheritance
 
@@ -257,7 +257,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* Advanced
+* Create an application with a Sidebar component `<Sidebar></Sidebar>` which can take any number of other component/elements to display in the sidebar.
 
 ## Context
 
@@ -269,7 +269,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* Advanced
+* In the todo app that you built previously built, change it to use context instead of props.
 
 # Tools
 
@@ -283,7 +283,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Inspect [coderplex website](https://coderplex.org/) to know what all are components and details of them.
 
 ## Proptypes
 
@@ -295,7 +295,8 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an application similar with a component printer taking some text to display as a prop.
+  - Use propTypes to check whether the prop passed is string or not.
 
 ## Error Boundaries
 
@@ -307,7 +308,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an application with an `<ErrorWrapper>` component which catches errors in its children components and displays an error message if some error occurs.
 
 # In depth discussions
 
@@ -319,8 +320,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------------- | :-------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX in details | [EggHead](https://egghead.io/lessons/jsx-deep-dive) | [PoonyFo](https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts) | [ReactJS/jsx-in](https://reactjs.org/docs/jsx-in-depth.html) | 12 hours |
 
-### Tasks :
-
 ## Synthetic Events
 
 ### Resources
@@ -329,9 +328,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :----------- | :----------------------------------------------------: | :----------------: | :-----------: | :------: |
 | React events | [Youtube](https://www.youtube.com/watch?v=dRo_egw7tBc) |                    |               | 12 hours |
 
-### Tasks :
-
-* Add
 
 ## React Without JSX
 
@@ -343,7 +339,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create a stopwatch application without any JSX.
 
 ## React without ES6
 
@@ -355,7 +351,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Recreate the same stopwatch application without writing any ES6 code.
 
 ## Reconcilation - Diff Algorithm
 
@@ -365,6 +361,4 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
 | Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
 
-### Tasks :
 
-* Add
