@@ -79,7 +79,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Take an application like Instagram and plan on what parts of it are re-usable and make a component.
+
+
 
 # Getting Started
 
@@ -107,7 +109,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Use `create-react-app` and create a sample React app.
+* Convert km to miles converter that you built previously into this application that you created now.
+* Build the application using `create-react-app`
+* Install serve by `npm i -g serve` and `serve build` to test the appliction that you built.
 
 ## JavaScript XML Syntax
 
@@ -117,9 +122,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------ | :------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX     | [EggHead](https://egghead.io/lessons/react-use-jsx-with-react) | [ReactEnlightment](https://www.reactenlightenment.com/react-jsx/5.1.html) | [ReactJS/jsx](https://reactjs.org/docs/introducing-jsx.html) | 6 hours  |
 
-### Tasks :
-
-* Add
 
 # Components
 
@@ -133,7 +135,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create a modified `h1` tag which has underline and blue colored text. You should be able to use it as `<Modh1>Some text</Modh1>` 
 
 ## Rendering
 
@@ -145,7 +147,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an Time Application which updates automatically and always shows the current time. Time should be in the format `HH:MM:SS AM/PM`.
 
 ## Conditional Rendering
 
@@ -157,7 +159,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an application with component `<Greet />` which displays "Good morning/evening/night" based on the time.
 
 ## Data flow
 
@@ -169,7 +171,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create a BMI calculator application. 
+    - This should internally contain two components, inputs for height and weight. 
+    - Display the result in the BMI component itself.
+    - We should be able to use it as `<BMICalc />`
 
 ## Lifecycle
 
@@ -181,7 +186,8 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build an application which has a search bar. When we enter any Github username in it, show the user's details in a card below.
+  - The card should make use of all the component lifecycle methods.
 
 ## Events
 
@@ -193,7 +199,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build a todo application with following requirements
+  - Input field to add new todos
+  - Click on todo to toggle completion. Maybe strikethrough if its completed.
+  - Double click on a todo to delete it.
 
 # Forms
 
@@ -207,7 +216,10 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Build an app which has a sign up form for students.
+  - Year of passing should be dropdown and should contain only 5 years back from now.
+  - Take in the date of birth and show his age next to dob input
+  - Suggest a few interested topics to select from a list of suggestions. These suggestions should appear as a type-ahead.
 
 ## Uncontrolled Components
 
@@ -219,7 +231,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Built an app that shows a red color rectangle using canvas elements.
 
 # Composition
 
@@ -233,7 +245,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* as
+* Add
 
 ## Composition vs Inheritance
 
@@ -245,7 +257,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* Advanced
+* Create an application with a Sidebar component `<Sidebar></Sidebar>` which can take any number of other component/elements to display in the sidebar.
 
 ## Context
 
@@ -257,7 +269,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* Advanced
+* In the todo app that you built previously built, change it to use context instead of props.
 
 # Tools
 
@@ -271,7 +283,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Inspect [coderplex website](https://coderplex.org/) to know what all are components and details of them.
 
 ## Proptypes
 
@@ -283,7 +295,8 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an application similar with a component printer taking some text to display as a prop.
+  - Use propTypes to check whether the prop passed is string or not.
 
 ## Error Boundaries
 
@@ -295,7 +308,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create an application with an `<ErrorWrapper>` component which catches errors in its children components and displays an error message if some error occurs.
 
 # In depth discussions
 
@@ -307,8 +320,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------------- | :-------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX in details | [EggHead](https://egghead.io/lessons/jsx-deep-dive) | [PoonyFo](https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts) | [ReactJS/jsx-in](https://reactjs.org/docs/jsx-in-depth.html) | 12 hours |
 
-### Tasks :
-
 ## Synthetic Events
 
 ### Resources
@@ -317,9 +328,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :----------- | :----------------------------------------------------: | :----------------: | :-----------: | :------: |
 | React events | [Youtube](https://www.youtube.com/watch?v=dRo_egw7tBc) |                    |               | 12 hours |
 
-### Tasks :
-
-* Add
 
 ## React Without JSX
 
@@ -331,7 +339,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Create a stopwatch application without any JSX.
 
 ## React without ES6
 
@@ -343,7 +351,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Add
+* Recreate the same stopwatch application without writing any ES6 code.
 
 ## Reconcilation - Diff Algorithm
 
@@ -353,6 +361,4 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
 | Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
 
-### Tasks :
 
-* Add
