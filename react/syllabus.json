@@ -7,15 +7,16 @@
     "chapters": [
       {
         "name": "Prerequisites",
-        "url": "prerequisites.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/prerequisites.md"
       },
       {
         "name": "Choosing ReactJS",
-        "url": "choosing-reactjs.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/choosing-reactjs.md"
       },
       {
         "name": "Philosophy",
-        "url": "philosophy.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/philosophy.md"
       }
     ]
   },
@@ -26,15 +27,17 @@
     "chapters": [
       {
         "name": "Trying React",
-        "url": "trying-react.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/trying-react.md"
       },
       {
         "name": "Create React App",
-        "url": "create-react-app.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/create-react-app.md"
       },
       {
         "name": "JavaScript XML Syntax",
-        "url": "javascript-xml-syntax.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/javascript-xml-syntax.md"
       }
     ]
   },
@@ -45,27 +48,29 @@
     "chapters": [
       {
         "name": "Custom Components",
-        "url": "custom-components.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/custom-components.md"
       },
       {
         "name": "Rendering",
-        "url": "rendering.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/rendering.md"
       },
       {
         "name": "Conditional Rendering",
-        "url": "conditional-rendering.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/conditional-rendering.md"
       },
       {
         "name": "Data Flow",
-        "url": "data-flow.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/data-flow.md"
       },
       {
         "name": "Lifecycle",
-        "url": "lifecycle.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/lifecycle.md"
       },
       {
         "name": "Events",
-        "url": "events.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/events.md"
       }
     ]
   },
@@ -76,11 +81,13 @@
     "chapters": [
       {
         "name": "Controlled Components",
-        "url": "controlled-components.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/controlled-components.md"
       },
       {
         "name": "Uncontrolled Components",
-        "url": "uncontrolled-components.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/uncontrolled-components.md"
       }
     ]
   },
@@ -91,15 +98,17 @@
     "chapters": [
       {
         "name": "Lifting State Up",
-        "url": "lifting-state-up.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/lifting-state-up.md"
       },
       {
         "name": "Composition vs Inheritance",
-        "url": "composition-vs-inheritance.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/composition-vs-inheritance.md"
       },
       {
         "name": "Context",
-        "url": "context.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/context.md"
       }
     ]
   },
@@ -110,15 +119,16 @@
     "chapters": [
       {
         "name": "Developer Tools",
-        "url": "developer-tools.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/developer-tools.md"
       },
       {
         "name": "Proptypes",
-        "url": "proptypes.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/proptypes.md"
       },
       {
         "name": "Error Boundaries",
-        "url": "error-boundaries.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/error-boundaries.md"
       }
     ]
   },
@@ -129,23 +139,27 @@
     "chapters": [
       {
         "name": "JSX In Depth",
-        "url": "jsx-in-depth.md"
+        "url": "https://rawgit.com/coderplex/learn/cdn/react/jsx-in-depth.md"
       },
       {
         "name": "Synthetic Events",
-        "url": "synthetic-events.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/synthetic-events.md"
       },
       {
         "name": "React Without JSX",
-        "url": "react-without-jsx.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/react-without-jsx.md"
       },
       {
         "name": "React without ES6",
-        "url": "react-without-es6.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/react-without-es6.md"
       },
       {
         "name": "Reconcilation - Diff Algorithm",
-        "url": "reconcilation---diff-algorithm.md"
+        "url":
+          "https://rawgit.com/coderplex/learn/cdn/react/reconcilation---diff-algorithm.md"
       }
     ]
   }
