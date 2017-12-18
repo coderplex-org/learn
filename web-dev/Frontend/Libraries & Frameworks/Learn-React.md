@@ -3,41 +3,43 @@
 # Curriculum
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Preface](#preface)
-  - [Prerequities](#prerequities)
-  - [Choosing ReactJS ?](#choosing-reactjs-)
-  - [Philosophy](#philosophy)
-- [Getting Started](#getting-started)
-  - [Trying React](#trying-react)
-  - [Create React App](#create-react-app)
-  - [JavaScript XML Syntax](#javascript-xml-syntax)
-- [Components](#components)
-  - [Custom Components](#custom-components)
-  - [Rendering](#rendering)
-  - [Conditional Rendering](#conditional-rendering)
-  - [Data flow](#data-flow)
-  - [Lifecycle](#lifecycle)
-  - [Events](#events)
-- [Forms](#forms)
-  - [Controlled Components](#controlled-components)
-  - [Uncontrolled Components](#uncontrolled-components)
-- [Composition](#composition)
-  - [Lifting state up](#lifting-state-up)
-  - [Composition vs Inheritance](#composition-vs-inheritance)
-  - [Context](#context)
-- [Tools](#tools)
-  - [Developer Tools](#developer-tools)
-  - [Proptypes](#proptypes)
-  - [Error Boundaries](#error-boundaries)
-- [In depth discussions](#in-depth-discussions)
-  - [JSX in depth](#jsx-in-depth)
-  - [Synthetic Events](#synthetic-events)
-  - [React Without JSX](#react-without-jsx)
-  - [React without ES6](#react-without-es6)
-  - [Reconcilation - Diff Algorithm](#reconcilation---diff-algorithm)
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Preface](#preface)
+  * [Prerequities](#prerequities)
+  * [Choosing ReactJS ?](#choosing-reactjs-)
+  * [Philosophy](#philosophy)
+* [Getting Started](#getting-started)
+  * [Trying React](#trying-react)
+  * [Create React App](#create-react-app)
+  * [JavaScript XML Syntax](#javascript-xml-syntax)
+* [Components](#components)
+  * [Custom Components](#custom-components)
+  * [Rendering](#rendering)
+  * [Conditional Rendering](#conditional-rendering)
+  * [Data flow](#data-flow)
+  * [Lifecycle](#lifecycle)
+  * [Events](#events)
+* [Forms](#forms)
+  * [Controlled Components](#controlled-components)
+  * [Uncontrolled Components](#uncontrolled-components)
+* [Composition](#composition)
+  * [Lifting state up](#lifting-state-up)
+  * [Composition vs Inheritance](#composition-vs-inheritance)
+  * [Context](#context)
+* [Tools](#tools)
+  * [Developer Tools](#developer-tools)
+  * [Proptypes](#proptypes)
+  * [Error Boundaries](#error-boundaries)
+* [In depth discussions](#in-depth-discussions)
+  * [JSX in depth](#jsx-in-depth)
+  * [Synthetic Events](#synthetic-events)
+  * [React Without JSX](#react-without-jsx)
+  * [React without ES6](#react-without-es6)
+  * [Reconcilation - Diff Algorithm](#reconcilation---diff-algorithm)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -81,8 +83,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 * Take an application like Instagram and plan on what parts of it are re-usable and make a component.
 
-
-
 # Getting Started
 
 ## Trying React
@@ -122,7 +122,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 | :------ | :------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 | JSX     | [EggHead](https://egghead.io/lessons/react-use-jsx-with-react) | [ReactEnlightment](https://www.reactenlightenment.com/react-jsx/5.1.html) | [ReactJS/jsx](https://reactjs.org/docs/introducing-jsx.html) | 6 hours  |
 
-
 # Components
 
 ## Custom Components
@@ -135,7 +134,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Create a modified `h1` tag which has underline and blue colored text. You should be able to use it as `<Modh1>Some text</Modh1>` 
+* Create a modified `h1` tag which has underline and blue colored text. You should be able to use it as `<Modh1>Some text</Modh1>`
 
 ## Rendering
 
@@ -171,23 +170,23 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Create a BMI calculator application. 
-    - This should internally contain two components, inputs for height and weight. 
-    - Display the result in the BMI component itself.
-    - We should be able to use it as `<BMICalc />`
+* Create a BMI calculator application.
+  * This should internally contain two components, inputs for height and weight.
+  * Display the result in the BMI component itself.
+  * We should be able to use it as `<BMICalc />`
 
 ## Lifecycle
 
 ### Resources
 
-| Concept                     |                                  Best Video Resource                                   |                         Best Text Resource                         |         Documentation         | Duration |
-| :-------------------------- | :------------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------: | :------: |
-| Component Lifecycle methods | [Frontend Masters](https://frontendmasters.com/courses/react-intro/lifecycle-methods/) | [ReactArmory](https://reactarmory.com/guides/lifecycle-simulators) | [ReactJS/state-and-lifecycle] | 6 hours  |
+| Concept                     |                                  Best Video Resource                                   |                         Best Text Resource                         |                                  Documentation                                   | Duration |
+| :-------------------------- | :------------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :------------------------------------------------------------------------------: | :------: |
+| Component Lifecycle methods | [Frontend Masters](https://frontendmasters.com/courses/react-intro/lifecycle-methods/) | [ReactArmory](https://reactarmory.com/guides/lifecycle-simulators) | [ReactJS/state-and-lifecycle](https://reactjs.org/docs/state-and-lifecycle.html) | 6 hours  |
 
 ### Tasks :
 
 * Build an application which has a search bar. When we enter any Github username in it, show the user's details in a card below.
-  - The card should make use of all the component lifecycle methods.
+  * The card should make use of all the component lifecycle methods.
 
 ## Events
 
@@ -200,9 +199,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Build a todo application with following requirements
-  - Input field to add new todos
-  - Click on todo to toggle completion. Maybe strikethrough if its completed.
-  - Double click on a todo to delete it.
+  * Input field to add new todos
+  * Click on todo to toggle completion. Maybe strikethrough if its completed.
+  * Double click on a todo to delete it.
 
 # Forms
 
@@ -217,9 +216,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Build an app which has a sign up form for students.
-  - Year of passing should be dropdown and should contain only 5 years back from now.
-  - Take in the date of birth and show his age next to dob input
-  - Suggest a few interested topics to select from a list of suggestions. These suggestions should appear as a type-ahead.
+  * Year of passing should be dropdown and should contain only 5 years back from now.
+  * Take in the date of birth and show his age next to dob input
+  * Suggest a few interested topics to select from a list of suggestions. These suggestions should appear as a type-ahead.
 
 ## Uncontrolled Components
 
@@ -296,7 +295,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Create an application similar with a component printer taking some text to display as a prop.
-  - Use propTypes to check whether the prop passed is string or not.
+  * Use propTypes to check whether the prop passed is string or not.
 
 ## Error Boundaries
 
@@ -324,10 +323,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Resources
 
-| Concept      |                  Best Video Resource                   | Best Text Resource | Documentation | Duration |
-| :----------- | :----------------------------------------------------: | :----------------: | :-----------: | :------: |
-| React events | [Youtube](https://www.youtube.com/watch?v=dRo_egw7tBc) |                    |               | 12 hours |
-
+| Concept      |                  Best Video Resource                   |                     Best Text Resource                     |                     Documentation                      | Duration |
+| :----------- | :----------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------: | :------: |
+| React events | [Youtube](https://www.youtube.com/watch?v=dRo_egw7tBc) | [Kirupa](https://www.kirupa.com/react/events_in_react.htm) | [ReactJS/Events](https://reactjs.org/docs/events.html) | 12 hours |
 
 ## React Without JSX
 
@@ -360,5 +358,3 @@ React is an open source javaScript library for building user interfaces by Faceb
 | Concept       |                                                 Best Video Resource                                                 |                                         Best Text Resource                                         |                             Documentation                             | Duration |
 | :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
 | Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
-
-
