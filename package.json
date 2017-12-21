@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/coderplex/learn#readme",
   "devDependencies": {
-    "cleave-markdown": "^1.0.1",
+    "cleave-markdown": "^2.1.0",
     "husky": "0.14.3",
     "lint-staged": "4.3.0",
     "markdownlint-cli": "0.3.1"
