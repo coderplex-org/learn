@@ -244,7 +244,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks:
 
-* Add
+* Create an application with an Image and like button as a child component. Have a count in the parent which has the Image. When we press like button, the count should be incremented.
 
 ## Composition vs Inheritance
 
