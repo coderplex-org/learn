@@ -47,17 +47,17 @@
 
 ## Prerequities
 
-Experience with the basic web technologies ie. HTML, CSS & JavaScript will help.
+Experience with the basic web technologies ie. HTML, CSS & JavaScript will help. Having a good grasp on ES6 / ES7 & functional javascript is essential. 
 
-## Choosing ReactJS ?
+## Why ReactJS ?
 
 React is an open source javaScript library for building user interfaces by Facebook inc.
 
-* **View in MVC** – ReactJS is the view layer in our applications and it does this job really well without trying to achieve anything more.
+* **View in MVC** – ReactJS acts as the view layer for your application and it provides a robust infrastructure to build scalable and performant front ends.
 
 * **Virtual DOM** – This is probably why most developers are so attracted to React. React manages its own DOM in memory. The most expensive operation most web apps suffer is mutating the DOM. React's approach is to maintain a virtual representation of the DOM which allows it to calculate differences in the DOM so that it only mutates the part of the DOM that actually needs to be updated. This is a huge benefit!
 
-* **Declarative** – Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+* **Declarative** – Design simple views for each state in your application, and React provides an innovating abstraction layer which efficiently updates just the right components when your data changes.
 
 * **Component-Based** – Build encapsulated components that manage their own state, then compose them to make complex UIs.
 
@@ -99,6 +99,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 - Make a simple km to miles converter in that one file.
 
+
 ## Create React App
 
 ### Resources
@@ -124,8 +125,6 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 # Components
 
-## Custom Components
-
 ### Resources
 
 | Concept           |                            Best Video Resource                             |                                    Best Text Resource                                     |                              Documentation                               | Duration |
@@ -135,6 +134,15 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Create a modified `h1` tag which has underline and blue colored text. You should be able to use it as `<Modh1>Some text</Modh1>`
+
+#### Additional Tasks:
+- Build a simple markdown app
+- Make a coursel
+- Make any component that you find will accelerate your work, like
+  - A table component to quickly create tables
+  - A responsive menu component
+  - Anything else you could thing of!
+- A simple TODO APP
 
 ## Rendering
 
@@ -159,6 +167,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Create an application with component `<Greet />` which displays "Good morning/evening/night" based on the time.
+* Create a website where you show different images based on the user input
+  - Examples would be a user selecting a car type, and you display car images depending on the user input. 
+* Create a website which only displays a page if you enter the right password, you don't need to implement the backend!
 
 ## Data flow
 
@@ -284,14 +295,15 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 * Inspect [coderplex website](https://coderplex.org/) to know what all are components and details of them.
 
-## Proptypes
+## Type System
 
 ### Resources
 
 | Concept   |                                       Best Video Resource                                        |                           Best Text Resource                            |                                  Documentation                                  | Duration |
 | :-------- | :----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :------: |
 | PropTypes | [EggHead](https://egghead.io/lessons/react-validate-custom-react-component-props-with-proptypes) | [Facebook/PropTypes](https://github.com/facebook/prop-types#prop-types) | [ReactJS/prop-types](https://reactjs.org/docs/typechecking-with-proptypes.html) | 1 hours  |
-
+| Flow |  | [Flow](https://flow.org/en/docs/getting-started/) | [Flow Documentation](https://flow.org/en/docs/) | 1 - 5 hours  |
+| Typescript |  | [Typescript Starter Kit](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter) | [Typescript Handbook](http://www.typescriptlang.org/docs/handbook/basic-types.html) | 5 - 8 hours  |
 ### Tasks :
 
 * Create an application similar with a component printer taking some text to display as a prop.
@@ -308,6 +320,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks :
 
 * Create an application with an `<ErrorWrapper>` component which catches errors in its children components and displays an error message if some error occurs.
+* Implement Error boundaries in most of the previous react applications you built. 
 
 # In depth discussions
 
