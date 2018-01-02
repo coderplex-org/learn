@@ -41,6 +41,9 @@
   * [React without ES6](#react-without-es6)
   * [Reconcilation - Diff Algorithm](#reconcilation---diff-algorithm)
 
+* [Complete Projects](#complete-projects-that-you-can-have-a-look)
+* [Opensource projects you can contribute to](#opensource-projects-you-can-contribute-to)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Preface
@@ -358,3 +361,14 @@ React is an open source javaScript library for building user interfaces by Faceb
 | Concept       |                                                 Best Video Resource                                                 |                                         Best Text Resource                                         |                             Documentation                             | Duration |
 | :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
 | Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
+
+# Complete projects that you can have a look
+
+* [Ivy Log](https://github.com/M-ZubairAhmed/Ivy-log)
+
+# Opensource projects you can contribute to
+
+* [Coderplex frontend](https://github.com/coderplex/coderplex)
+* [Wanna Todo](https://github.com/mkermani144/wanna)
+* [Spectacle](https://github.com/FormidableLabs/spectacle)
+* [Nylas Mail](https://github.com/nylas/nylas-mail)
