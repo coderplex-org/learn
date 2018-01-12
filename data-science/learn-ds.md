@@ -48,6 +48,16 @@ Drawing insight from a piece of data involves understanding how it fits into the
 
 # Curriculum
 
+## Prerequisites
+
+Basic knowledge of 
+
+- Linear Algebra
+- Calculus
+- Probability & Statistics
+
+Some amount of programming experience is also desired.
+
 ## Fundamentals
 - Matrices & Linear Algebra Fundamentals
 - Hash Functions, Binary Tree, O(n)

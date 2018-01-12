@@ -1,10 +1,10 @@
-#Learn-iOS
+# Learn-iOS
 ---
 
 Repo for iOS Development month of code.
 
 #####Prerequisites:
-Should be familiar with basics of OOP.
+Should be familiar with the  Object-Oriented Programming paradigm and should have basic undrstanding of Objective-C.
 
 ### Course structure:
 
