@@ -1,7 +1,7 @@
 # Roadmap to Elixir
-
+### Part I
 # Preface
-Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang Virtual Machine. 
+This is an Introductory course on Elixir. It covers all the basics required  to understand the Phoenix web framework andstart using Elixir in your orojects.
 
 ***Why Elixir***?
 **Scalable:** Elixir 1seasily scalable.
@@ -21,7 +21,9 @@ Getting in touch with the gloabl community:
 #### At Coderplex
 The current community at Coderplex us limited to 3 people - [@anandpotukuchi](https://twitter.com/anandpotukuchi) , [@akhilpotukuchi](https://twitter.com/AkhilPotukuchi), [niveshkrishna](https://twitter.com/vniveshkrishna).
 
-#### Team
+#### Course Details
+
+Level : Advanced
 Written By: [Anand Potukuchi](http://www.github.com/anandpotukchi)
 Maintained By: [Anand Potukuchi](http://www.github.com/anandpotukchi)
 
@@ -37,18 +39,8 @@ The only prerequisites for this course are to able to access the internet and a 
 | --------- | -------- |------------ |-----------|--------|
 | Installation (Linux) | [YoutubeV]()|[Documentation](https://elixir-lang.org/install.html)| 05 minutes| - |
 | Installation (Linux) | [Youtube]()|[Documentation](https://elixir-lang.org/install.html)| 05 minutes| - |
-| Installation (Mac) | [YoutubeV]()|[Documentation](https://elixir-lang.org/install.html)| 05 minutes| - |
+| Installation (Mac) | [Youtube]()|[Documentation](https://elixir-lang.org/install.html)| 05 minutes| - |
 
-##### Project 1: Create a new Elixir project
-
-###### Tasks:
-
-- Use elixir's `mix` tool to create a `new` project
-- Use `cd` command to navigate to the new directory
-
-|Concept|Best Video Resource| Best Text Resource| Duration | Prerequisites|
-| --------- | -------- |------------ |-----------|--------|
-| Create a new project | [Pragmatic Studio](https://pragmaticstudio.com/blog/2017/04/27/running-elixir)        | [Documentation](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html#our-first-project) | 1/2 hour | None |
 
 
 ### Interactive Mode
@@ -80,7 +72,6 @@ Running the elixir command
 ```
 $ elixir hello.exs
 Hello World!
-user@ubuntu $
 ```
 ### Data Types
 Elixir has three basic data types:
@@ -93,9 +84,22 @@ Elixir has three basic data types:
 ```
 iex > true === true
 true
-1 === 
+1 === 0
+false
 ```
-**Strings:** 
+**Strings:** String are encoded in "UTF-8" and are placed in double quotes.
+
+```
+iex> "hello world"
+"hello world"
+```
+It is also possible to interpolate two strings. 
+
+```
+iex> "hello, My name is #{:Anand}"
+``` 
+>String interpolation cna be poerforme d with variables also.  Using the IO.puts, we can output values of variables.
+
 **Atoms:** Atoms are constants whose value is the same is the name.
 
 ```
@@ -166,9 +170,23 @@ iex> error_msg = {:error, "this is an error message."}
 ```
 
 ### Conditionals
-
 #### Case
-The case matches a value witrh 
+The case compares a value with a set of values and returns the one that matches. 
+
+```
+case 1 do
+..> 3 ->
+..> "fail"
+..> 1 ->
+..> "success"
+..> end
+"success"
+```
+> If a match isn't found, the compiler throws a case c;ause error:
+
+`** (CaseClauseError) no case clause matching: 1`
+
+
 #### Cond
 
 #### If and unless
@@ -191,24 +209,63 @@ iex> add = fn a.b -> 3 + 5
 ```
 ## Recursion
 
-## Enum and Streams
 
-### Processes
 
-### IO and File Systems
-
-### alias,requir and import
+### alias,require and import
 
 ### Structs
 
-### Protocols 
-
-### Sigils
-
-### try, catch and rescue
-
 ## The mix tool
+Elixir uses the mix tool to create a default directory structure for our orojects
 
+```
+$ mix new test_project
+* creating README.md
+* creating .formatter.exs
+* creating .gitignore
+* creating mix.exs
+* creating config
+* creating config/config.exs
+* creating lib
+* creating lib/test.ex
+* creating test_project
+* creating test_project/test_helper.exs
+* creating test/test_test.exs
+
+Your Mix project was created successfully.
+You can use "mix" to compile it, test it, and more:
+
+    cd test
+    mix test
+
+```
+
+The folowing demonstrates the directory structure of an Elixir project
+
+```
+├── config
+│   └── config.exs
+├── lib
+│   └── test.ex
+├── mix.exs
+├── README.md
+└── test
+    ├── test_helper.exs
+    └── test_test.exs
+
+```
+#### Understanding the directory structure
+The 
+##### Project 1: Create a new Elixir project
+
+###### Tasks:
+
+- Use elixir's `mix` tool to create a `new` project
+- Use `cd` command to navigate to the new directory
+
+|Concept|Best Video Resource| Best Text Resource| Duration | Prerequisites|
+| --------- | -------- |------------ |-----------|--------|
+| Create a new project | [Pragmatic Studio](https://pragmaticstudio.com/blog/2017/04/27/running-elixir)        | [Documentation](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html#our-first-project) | 1/2 hour | None |
 ## Final Project (Capstone)
 We encourage studnets taking this course to try out what they've learnt and
 We You can complete anyone of the four projcts or open an issue in the [submissions]() repo with the labels - "new" "elixir"
@@ -224,10 +281,14 @@ You can also ask to be assigned to a mentor who will guide you through your proj
 [Awesome-Elixir: A curated list of awesome Elixir and Erlang libraries]()
 
 ### What's Next
+- **Advanced Elixir:** The next course contains advanced concepts such as Enum, Streams, Porcesses, file handling, protocols, error handling, comprehensions and sigils.  
 
-As the maintainers put it, [Phoenix](http://phoenixframework.org/) is a "A productive web framework that 
-does not compromise speed and maintainability". They maintain the ideology till date. 
+>This course is optional and is to give a deeper undrstanding of Elixir.
+You can find the course [here]()
+
+- **The Phoenix web framework** As the maintainers put it, [Phoenix](http://phoenixframework.org/) is a "A productive web framework that does not compromise speed and maintainability". They maintain the ideology till date. 
 
 We suggest you take the [Roadmap to Phoenix]() course to undertand using Elixir on the web.
 
+Happy coding!!!
 
