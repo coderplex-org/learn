@@ -9,7 +9,7 @@ This is an Introductory course on Elixir. It covers all the basics required  to 
 
 ## Contents
 
-### Community 
+### Community   
 The Elixir Community has a total of about 18000 users in all
 #### Global 
 Getting in touch with the gloabl community:
@@ -169,7 +169,7 @@ iex> error_msg = {:error, "this is an error message."}
 {:error, "this is an error message."}
 ```
 
-### Conditionals
+### Control Structures (Conditionals)
 #### Case
 The case compares a value with a set of values and returns the one that matches. 
 
@@ -188,19 +188,88 @@ case 1 do
 
 
 #### Cond
+cond is used when we need to evaluate an expression and display the output of the first condition that evealuates to trueyo.
 
+```
+iex> cond do
+..>  2 + 2 == 5 ->
+..> "This condition returns false"
+..> 2 == 2 ->
+..> "This is true"
+..> end
+"This is true"
+
+```
 #### If and unless
+The if macro is used whenthere is only one condition to be evaluated.
+
+```
+if 2  + 4 == 6 do 
+..> " This evaluates to true"
+..> end
+" This evaluates to true"
+
+```
+The unless macro is used to evaluaate the statement and perform the operations if the statement evalueates false.
+
+```
+unless 2 == 4 do
+..> "false" 
+..> end
+"false"
+
+```
+
+> The if and sunless support else statements also.
 
 ### Keyword Lists
+A keyword list is a list of tuples. A tuple contains two items - the first , a **key** and the second a **value**.
+
+```
+iex> [{:a, 4}.{:b, 5}]
+[a: 4, b: 2]
+```
+
+A real-world use case of a keyword list is when defining success and error messages:
+
+```
+iex> messsages = [
+..> {:success, "This is a success message"},
+..> {:error, "This is an error message"}
+..> ] 
+[success: "This a a success message", error: "This is an error message"]
+
+```
+
+
 
 ### Maps
+Maps are the preferred way of key-value storage
+
+```
+iex> %{:a => 3, 2=> :b}
+%{:a => 3, 2=> :b}
+%{2=> :b, :a => 3}
+```
 
 ### Modules and Functions
+..>
+Groups of functions are called **modules**
 
-##### Modules
-##### Functions
+```
+iex> defmodule Operations do
+..> def add(4,2) do
+..> a + b
+..> end
+..> def sub(a.b) do
+..> a - b
+..> end
+
+```
+
 ##### Anonymous functions
-Anonymous functions do not require a name
+
+Anonymous functions require only parameters.
 
 They start with `fn` and end with `end`
 
@@ -208,12 +277,69 @@ They start with `fn` and end with `end`
 iex> add = fn a.b -> 3 + 5 
 ```
 ## Recursion
+Like many other functional programming languages, Elixir uses recursion instead of loops.
+
+```
+defmodule Factorial do
+  def print(0) do
+   IO.puts 1
+  end
+
+  def print(n) when n > 1 do
+   IO.puts n * print(n-1)
+  end
+end
 
 
+Factorial.print(7)
 
-### alias,require and import
+
+```
+
+## alias,require and import
+
+The directives alias, require and import are used to reuse code.
+
+**Alias** is used to used to reduce the name of the module.
+
+`
+alias Module.function, as: fn
+`
+we will be able to refer to the function as fn instead of module.functiion.
+
+**Require** is used to use the entire module 
+
+`
+require Module
+`
+**Import** is used when you want to call functiions without using the module name.
+
+`
+import Module
+`
+**Use** macro is used to bring i external functionality into the mpodule
+
+`
+use Module
+`
+
+Elixir lets nested modules
+
+`
+defmodule A do
+  defmooduke B do
+  end
+end
+`
+Elixir also supports alias/require/import/use several modules
+
+`
+require {A,B,C}
+`
+
 
 ### Structs
+
 
 ## The mix tool
 Elixir uses the mix tool to create a default directory structure for our orojects
@@ -265,10 +391,23 @@ The
 
 |Concept|Best Video Resource| Best Text Resource| Duration | Prerequisites|
 | --------- | -------- |------------ |-----------|--------|
-| Create a new project | [Pragmatic Studio](https://pragmaticstudio.com/blog/2017/04/27/running-elixir)        | [Documentation](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html#our-first-project) | 1/2 hour | None |
+| Create a new project | [Pragmatic Studio](https://pragmaticstudio.com/blog/2017/04/27/running-elixir)        | [Documentation](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html#our-first-project) | 1/2 hour | None | 
+
+> To know more about Mix and OTP, read the docs [here](https://hexdocs.pm/mix/Mix.html) 
+
 ## Final Project (Capstone)
 We encourage studnets taking this course to try out what they've learnt and
 We You can complete anyone of the four projcts or open an issue in the [submissions]() repo with the labels - "new" "elixir"
+
+### List of projects
+
+- **Scientific Calculator:** Build a scientific calculator in the command line. The  app should have basic operations and other operations such as logarithms and trignometric functions. ( *Hint*: use case to check user choice of operation
+- **Word Counter:** Count the number of charecters, vowels, consonansts, words and sentences in a given paragraph.
+- **Bank Statement:** Build a command-line application that takes in a CSV file and outputs a readable bank statement.
+- **Changelog:** Create  a changelog using the elixir command line. It should take titie and description as user inputs and assign timestamps and print a table on calling a a function. 
+
+> Doing all projects is recommended to get a good understanding of basics.Projects may require research
+
 
 #### Evaluation 
 You can open a PR in the **submissions** repo with the title "Final Project : Roadmap to Elixir" with the label "needs-review"
