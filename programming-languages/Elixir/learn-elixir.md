@@ -339,8 +339,13 @@ require {A,B,C}
 
 
 ### Structs
+A struct is a data type built on Maps. It defines default values and provides compile time checks. 
 
-
+```
+iex> defmodule Person do
+..> defstruct name: "anand", age: 22, occupation: "Student"
+..> end
+```
 ## The mix tool
 Elixir uses the mix tool to create a default directory structure for our orojects
 
