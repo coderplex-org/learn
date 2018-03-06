@@ -18,8 +18,10 @@ But that's not it. We believe that there are five stages to learning: Theory, Pr
   - [Cross Native](mobile-dev/cross-native)
   - [Hybrid Apps](mobile-dev/hybrid-apps)
 - Programming Languages
-  - [Go](programming-languages/Go)
-  - [Elixir](programming-languages/Elixir)
+  - [Go](programming-languages/Go/learn-go.md)
+  - Elixir
+    - [Basics](https://github.com/anandpotukchi/learn/blob/master/programming-languages/Elixir/learn-elixir.md) 
+    - [Advanced](https://github.com/anandpotukchi/learn/blob/master/programming-languages/Elixir/learn-elixir-part-ii.md)
   - [Python](programming-languages/Python)
   - [Rust](programming-languages/Rust)	
 - Web Development
