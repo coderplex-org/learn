@@ -9,11 +9,18 @@
 
 # Prerequisites
 
+Students learning Machine Learning are expected to have a basic knowledge of
+
+- Data Structures & Analysis of Algorithms
+- Programming 
+- Linear Algebra
+- Probability
+
 # Concepts 
 - AdaBoost 
 - Akaike information criterion 
 - annealed importance sampling 
-- backpropagation 
+- back propagation 
 - backpropagation for second-order methods 
 - bagging 
 - basis function expansions 
@@ -151,5 +158,7 @@
 - weight decay in neural networks
 
 # Additional resources
+
+- Stanford CS 229 Andrew Ng 
 - [Deep Learning Book](http://www.deeplearningbook.org)
 # Open Source
