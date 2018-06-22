@@ -374,4 +374,4 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 # Courses
 
-- (The Beginner's Guide To React)[https://egghead.io/courses/the-beginner-s-guide-to-react]
+- [The Beginner's Guide To React](https://egghead.io/courses/the-beginner-s-guide-to-react)
