@@ -10,7 +10,7 @@
 
 * [Preface](#preface)
   * [Prerequities](#prerequities)
-  * [Choosing ReactJS ?](#choosing-reactjs-)
+  * [Choosing ReactJS ?](#why-reactjs)
   * [Philosophy](#philosophy)
 * [Getting Started](#getting-started)
   * [Trying React](#trying-react)
@@ -30,6 +30,10 @@
   * [Lifting state up](#lifting-state-up)
   * [Composition vs Inheritance](#composition-vs-inheritance)
   * [Context](#context)
+* [Hooks](#hooks)
+  * [Introduction](#hooks-introduction)
+  * [Predefined hooks](#predefined-hooks)
+  * [Writing Custom Hooks](#custom-hooks)
 * [Tools](#tools)
   * [Developer Tools](#developer-tools)
   * [Proptypes](#proptypes)
@@ -124,6 +128,8 @@ React is an open source javaScript library for building user interfaces by Faceb
 | JSX     | [EggHead](https://egghead.io/lessons/react-use-jsx-with-react) | [ReactEnlightment](https://www.reactenlightenment.com/react-jsx/5.1.html) | [ReactJS/jsx](https://reactjs.org/docs/introducing-jsx.html) | 6 hours  |
 
 # Components
+
+## Custom Components
 
 ### Resources
 
@@ -280,6 +286,47 @@ React is an open source javaScript library for building user interfaces by Faceb
 ### Tasks:
 
 * In the todo app that you built previously built, change it to use context instead of props.
+# Hooks 
+
+## Hooks Introduction
+ 
+### Resources
+
+| Concept                |                  Best Video Resource                   |                                      Best Text Resource                                      |                                     Documentation                                      | Duration |
+| :--------------------- | :----------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------: |
+| Glance at Hooks | [Youtube](https://www.youtube.com/watch?v=dpw9EHDh2bM) | [Freecodecamp](https://medium.freecodecamp.org/an-introduction-to-react-hooks-12843fcd2fd9) | [ReactJS Hooks](https://reactjs.org/docs/hooks-intro.html) | 1 hours  |
+
+
+### Tasks:
+
+* Change exising class comonents in todo app into functional components and use hooks instead of methods in Component.
+
+## Predefined Hooks
+
+### Resources
+
+| Concept                |                  Best Video Resource                   |                                      Best Text Resource                                      |                                     Documentation                                      | Duration |
+| :--------------------- | :----------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------: |
+| useState hook | [Youtube](https://www.youtube.com/watch?v=oGtKXuu7Mgk) | [freecodecamp](https://medium.freecodecamp.org/a-quick-introduction-to-the-react-state-hook-9910f298eefb) | [ React hooks](https://reactjs.org/docs/hooks-state.html) | 1 hours  |
+
+
+
+### Tasks:
+
+* Use useState() hook instead of state in class component in todo app.
+
+## Custom Hooks
+
+### Resources
+
+| Concept                |                  Best Video Resource                   |                                      Best Text Resource                                      |                                     Documentation                                      | Duration |
+| :--------------------- | :----------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: | :------: |
+| custom hooks | [Youtube](https://www.youtube.com/watch?v=fnT5b2u1PHE) | [levelup](https://levelup.gitconnected.com/two-simple-reusable-custom-hooks-for-your-react-apps-a0275724f8ab) | [ Custom React hooks]([https://reactjs.org/docs/hooks-state.html](https://reactjs.org/docs/hooks-custom.html)) | 1 hours  |
+
+
+### Tasks:
+
+* Write a custom hook to make a api call and update state only if data changes from previous.
 
 # Tools
 
