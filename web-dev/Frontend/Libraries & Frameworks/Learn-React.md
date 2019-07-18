@@ -137,11 +137,11 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 #### Additional Tasks:
 - Build a simple markdown app
-- Make a coursel
+- Make a carousel
 - Make any component that you find will accelerate your work, like
   - A table component to quickly create tables
   - A responsive menu component
-  - Anything else you could thing of!
+  - Anything else you could think of!
 - A simple TODO APP
 
 ## Rendering
