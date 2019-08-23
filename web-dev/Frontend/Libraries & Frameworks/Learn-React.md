@@ -36,26 +36,26 @@
   * [Writing Custom Hooks](#custom-hooks)
 * [Tools](#tools)
   * [Developer Tools](#developer-tools)
-  * [Proptypes](#proptypes)
+  * [PropTypes](#proptypes)
   * [Error Boundaries](#error-boundaries)
 * [In depth discussions](#in-depth-discussions)
   * [JSX in depth](#jsx-in-depth)
   * [Synthetic Events](#synthetic-events)
   * [React Without JSX](#react-without-jsx)
   * [React without ES6](#react-without-es6)
-  * [Reconcilation - Diff Algorithm](#reconcilation---diff-algorithm)
+  * [Reconciliation - Diff Algorithm](#reconciliation---diff-algorithm)
 * [Courses](#courses)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Preface
 
-## Prerequities
+## Prerequisites
 
-Experience with the basic web technologies ie. HTML, CSS & JavaScript will help. Having a good grasp on ES6 / ES7 & functional javascript is essential. 
+Experience with the basic web technologies i.e. HTML, CSS & JavaScript will help. Having a good grasp on ES6 / ES7 & functional JavaScript is essential. 
 
 ## Why ReactJS ?
 
-React is an open source javaScript library for building user interfaces by Facebook inc.
+React is an open source JavaScript library for building user interfaces by Facebook Inc.
 
 * **View in MVC** – ReactJS acts as the view layer for your application and it provides a robust infrastructure to build scalable and performant front ends.
 
@@ -67,9 +67,9 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 * **Server Side Rendering** – Combining a NodeJS server and ReactJS helps us build even more complex applications by pre-rendering the initial state of our ReactJS components.
 
-* **Javascript** – It is JavaScript after all. We can use latest JavaScript goodies by transpiling our code with the tools we prefer like webpack, browserify, rollup, babel etc
+* **JavaScript** – It is JavaScript after all. We can use latest JavaScript goodies by transpiling our code with the tools we prefer like webpack, browserify, rollup, babel etc
 
-* **Non-Opinitated** – It doesnt make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
+* **Non-Opinionated** – It doesn't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
 
 * **Testability** – React components simplify testing greatly. As a proof of it's simplicity, our new web client has more tests than any of our other clients.
 
@@ -117,7 +117,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 * Use `create-react-app` and create a sample React app.
 * Convert km to miles converter that you built previously into this application that you created now.
 * Build the application using `create-react-app`
-* Install serve by `npm i -g serve` and `serve build` to test the appliction that you built.
+* Install serve by `npm i -g serve` and `serve build` to test the application that you built.
 
 ## JavaScript XML Syntax
 
@@ -143,11 +143,11 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 #### Additional Tasks:
 - Build a simple markdown app
-- Make a coursel
+- Make a carousel
 - Make any component that you find will accelerate your work, like
   - A table component to quickly create tables
   - A responsive menu component
-  - Anything else you could thing of!
+  - Anything else you could think of!
 - A simple TODO APP
 
 ## Rendering
@@ -202,7 +202,7 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 ### Tasks :
 
-* Build an application which has a search bar. When we enter any Github username in it, show the user's details in a card below.
+* Build an application which has a search bar. When we enter any GitHub username in it, show the user's details in a card below.
   * The card should make use of all the component lifecycle methods.
 
 ## Events
@@ -411,13 +411,13 @@ React is an open source javaScript library for building user interfaces by Faceb
 
 * Recreate the same stopwatch application without writing any ES6 code.
 
-## Reconcilation - Diff Algorithm
+## Reconciliation - Diff Algorithm
 
 ### Resources
 
 | Concept       |                                                 Best Video Resource                                                 |                                         Best Text Resource                                         |                             Documentation                             | Duration |
 | :------------ | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------: |
-| Reconcilation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconcilation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
+| Reconciliation | [Chariot Solutions](https://chariotsolutions.com/screencast/philly-ete-2016-30-jim-sproch-react-js-reconciliation/) | [Medium](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e) | [ReactJS/Reconciliation](https://reactjs.org/docs/reconciliation.html) | 10 hours |
 
 # Courses
 
