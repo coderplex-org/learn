@@ -25,6 +25,7 @@ None
 - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web)
 - [Can I Use](http://caniuse.com)
 - [Learn RegEx](http://regexone.com/)
+- [RegEx tester](https://extendsclass.com/regex-tester.html)
 - [Discover DevTools](http://discover-devtools.codeschool.com/)
 - [Frontend Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017/)
 - [Frontend Dev Bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
